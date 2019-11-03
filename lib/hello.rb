@@ -1,13 +1,13 @@
-def hello_t(array)
-  i = 0
+#def hello_t(array)
+  #i = 0
   
-  while i < array.length
-    yield(array[i])
-    i = i + 1
-  end
+  #while i < array.length
+    #yield(array[i])
+    #i = i + 1
+  #end
 
-  array
-end
+  #array
+#end
 
 def hello_t(array)
   if block_given?
@@ -23,7 +23,6 @@ def hello_t(array)
     puts "Hey! No block was given!"
   end
 end
-
 
 # call your method here!
 ["Tim", "Tom", "Jim"]
